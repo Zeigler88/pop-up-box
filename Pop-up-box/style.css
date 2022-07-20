@@ -1,0 +1,24 @@
+#box{
+    width: 65vw;
+    background-color: rgb(70, 83, 65);
+
+    border-radius: 1rem;
+    position: relative;
+    display: none;
+}
+
+
+#box.show{
+    display: block;
+}
+
+#show-btn{
+    background-color:orange;
+}
+#close-pop-up{
+
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: rgb(1, 18, 32);
+}
